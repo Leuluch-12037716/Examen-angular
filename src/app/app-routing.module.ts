@@ -1,7 +1,21 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { FooterComponent } from './pages/footer/footer.component';
+import { GardenComponent } from './pages/garden/garden.component';
+import { HeaderComponent } from './pages/header/header.component';
+import { HomeComponent } from './pages/home/home.component';
+import { MenuComponent } from './pages/menu/menu.component';
 
-const routes: Routes = [];
+
+const routes: Routes = [
+  {path: '', redirectTo: 'home', pathMatch: 'full' },
+  {path: '', component:HomeComponent},
+  {path: '', component:FooterComponent},
+  {path: 'Balsa', component:GardenComponent},
+  {path: '', component:HeaderComponent},
+  {path: '', component:MenuComponent},
+  {path: '**', redirectTo: 'home' }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
