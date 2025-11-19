@@ -19,3 +19,15 @@
 .menu-container a:hover { 
   background-color: #1e88e5;
 }
+
+@media (max-width: 600px) {
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-links a {
+    width: 100%;
+    text-align: center;
+  }
+}

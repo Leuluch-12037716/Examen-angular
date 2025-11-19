@@ -1,8 +1,11 @@
 .header-container {
   width: 100%;
+  padding: 15px 20px;
   background-color: #1e88e5;
-  padding: 20px;
+  /*display: flex;*/
   box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
   text-align: center;
   margin: 0%;
 }
@@ -10,6 +13,22 @@
 .logo {
   color: white;
   margin: 0;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: bold;
 }
+
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 900px) {
+  header {
+    flex-direction: center;
+    text-align: center;
+  }
+}
+
