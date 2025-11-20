@@ -1,12 +1,10 @@
 <nav class="navbar">
   <div class="logo">Menú</div>
 
-  <!-- Botón hamburguesa -->
   <button class="Botom" (click)="toggleMenu()">
     ☰
   </button>
 
-  <!-- Opciones -->
   <ul [class.open]="menuOpen">
     <li><a routerLink="">Inicio</a></li>
     <li><a routerLink="/Guerra">Guerra</a></li>
