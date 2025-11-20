@@ -1,13 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
-/* Quita márgenes y padding global del navegador */
+
 html, body {
   margin: 0;
   padding: 0;
   height: 100%;
 }
 
-/* Opcional: evita scroll lateral si algo se descuadra */
 body {
   overflow-x: hidden;
-  background-color: #ffffff; /* o el color que quieras de fondo */
+  background-color: #ffffff; 
 }
+

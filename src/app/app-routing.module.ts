@@ -5,6 +5,8 @@ import { GardenComponent } from './pages/garden/garden.component';
 import { HeaderComponent } from './pages/header/header.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MenuComponent } from './pages/menu/menu.component';
+import { GuerraComponent } from './pages/guerra/guerra.component';
+import { FinalComponent } from './pages/final/final.component';
 
 
 const routes: Routes = [
@@ -14,7 +16,12 @@ const routes: Routes = [
   {path: 'Balsa', component:GardenComponent},
   {path: '', component:HeaderComponent},
   {path: '', component:MenuComponent},
-  {path: '**', redirectTo: 'home' }
+  {path: '**', redirectTo: 'home' },
+  {path: `Guerra`, component:GuerraComponent},
+  {path: `Final`, component:FinalComponent},
+
+
+
 ];
 
 @NgModule({
