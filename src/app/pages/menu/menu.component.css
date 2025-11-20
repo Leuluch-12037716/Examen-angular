@@ -23,7 +23,6 @@
 @media (max-width: 600px) {
   .nav-links {
     flex-direction: column;
-    gap: 10px;
   }
 
   .nav-links a {
@@ -31,5 +30,13 @@
     text-align: center;
   }
 }
+
+@media (max-width: 900px) {
+  header {
+    flex-direction: center;
+    text-align: center;
+  }
+}
+
 
 
