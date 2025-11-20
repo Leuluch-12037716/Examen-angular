@@ -13,7 +13,7 @@ const routes: Routes = [
   {path: '', redirectTo: 'home', pathMatch: 'full' },
   {path: '', component:HomeComponent},
   {path: '', component:FooterComponent},
-  {path: 'Balsa', component:GardenComponent},
+  {path: 'Garden', component:GardenComponent},
   {path: '', component:HeaderComponent},
   {path: '', component:MenuComponent},
   {path: '**', redirectTo: 'home' },

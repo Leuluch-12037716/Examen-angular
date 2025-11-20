@@ -1,8 +1,16 @@
-<nav class="menu-container">
-  <a routerLink="">Inicio</a>
-  <a routerLink="/Guerra">Guerra</a>
-  <a routerLink="/Final">Culminacion</a>
+<nav class="navbar">
+  <div class="logo">Menú</div>
 
-  <a routerLink="/Balsa">Guerra 2</a>
+  <!-- Botón hamburguesa -->
+  <button class="Botom" (click)="toggleMenu()">
+    ☰
+  </button>
 
+  <!-- Opciones -->
+  <ul [class.open]="menuOpen">
+    <li><a routerLink="">Inicio</a></li>
+    <li><a routerLink="/Guerra">Guerra</a></li>
+    <li><a routerLink="/Final">Culminación</a></li>
+    <li><a routerLink="/Garden">Guerra 2</a></li>
+  </ul>
 </nav>
