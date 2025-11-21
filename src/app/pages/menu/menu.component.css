@@ -35,6 +35,18 @@ li a {
   font-weight: bold;
 }
 
+.mode{
+    font-weight: bold;
+    border-radius: 6px;
+    background: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
 @media (max-width: 768px) {
   .Botom {
     display: block; 

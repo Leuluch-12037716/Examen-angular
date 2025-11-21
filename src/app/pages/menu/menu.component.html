@@ -6,9 +6,14 @@
   </button>
 
   <ul [class.open]="menuOpen">
-    <li><a routerLink="">Inicio</a></li>
+    <li><a class="a" routerLink="">Inicio</a></li>
     <li><a routerLink="/Guerra">Guerra</a></li>
     <li><a routerLink="/Final">Culminación</a></li>
     <li><a routerLink="/Garden">Guerra 2</a></li>
+    <button class="mode" (click)="toggleTheme()">
+      {{ theme === 'dark' ? 'Modo Claro' : 'Modo Oscuro' }}
+    </button>
   </ul>
+
+ 
 </nav>
